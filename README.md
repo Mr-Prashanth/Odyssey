@@ -36,13 +36,6 @@
 - **User Management**: Access customer accounts and order history
 - **Sales Analytics**: View reports on popular products and sales performance
 
-### For Developers
-- **Modern Tech Stack**: React 19 + FastAPI + MySQL
-- **RESTful API**: Well-documented endpoints with automatic Swagger documentation
-- **Responsive Design**: Mobile-first approach with modern CSS
-- **Scalable Architecture**: Modular code structure for easy maintenance
-- **Security Features**: JWT authentication, input validation, secure data handling
-
 ---
 
 ## Technology Overview
