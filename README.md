@@ -62,7 +62,7 @@
 
 ## Contributions
 
-* **Frontend:** [R Senthalir]
+* **Frontend:** [R Senthalir](https://github.com/Rsenthalir)
 * **Backend:** [Prashanth Samkumar](https://github.com/Mr-Prashanth)
 * **Database:** [Hariharan R](https://github.com/Hariharan-R-23)
 
