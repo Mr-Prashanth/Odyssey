@@ -60,6 +60,12 @@
 - **ESLint & Prettier**: Code quality and formatting tools
 - **Git**: Version control for tracking code changes
 
+## Contributions
+
+* **Frontend:** R Senthalir
+* **Backend:** Prashanth Samkumar
+* **Database:** Hariharan R
+
 
 
 
