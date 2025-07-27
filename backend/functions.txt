@@ -1,0 +1,48 @@
+# for rating 
+
+async function addRating() {
+    const response = await fetch('http://localhost:8000/product/rating', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            pro_id: 1,     // product id
+            rating: 4.5    // new rating
+        })
+    });
+
+    const data = await response.json();
+    console.log(data);
+    return data;
+}
+
+#for adding new product
+async function addProduct() {
+    const response = await fetch('http://localhost:8000/product/add', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            pro_name: "Oversized Hoodie",
+            pro_description: "Heavyweight cotton hoodie",
+            fit: "Oversized",
+            category: "Hoodies",
+            material: "Cotton",
+            sex: "U",
+            price: 1999,
+            rating: 0,
+            total_rating: 0,
+            image_link: "https://image-link.jpg",
+            specification: [
+                { quantity: 10, size: "M" },
+                { quantity: 8, size: "L" }
+            ]
+        })
+    });
+
+    const data = await response.json();
+    console.log(data);
+    return data;
+}
